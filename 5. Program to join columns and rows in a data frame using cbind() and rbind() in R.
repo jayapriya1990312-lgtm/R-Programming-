@@ -1,0 +1,22 @@
+# First data frame
+student1 <- data.frame(
+  ID = c(1, 2),
+  Name = c("Ravi", "Priya")
+)
+
+# Second data frame
+student2 <- data.frame(
+  ID = c(3, 4),
+  Name = c("Anu", "Kumar")
+)
+
+# Join rows
+rows <- rbind(student1, student2)
+print(rows)
+
+# Add a column
+Mark <- c(80, 90, 85, 95)
+
+# Join column
+result <- cbind(rows, Mark)
+print(result)
