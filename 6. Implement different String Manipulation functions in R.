@@ -1,0 +1,23 @@
+# String Manipulation Functions in R
+
+text <- "Hello R Programming"
+
+# 1. Number of characters
+print(nchar(text))
+
+# 2. Convert to upper case
+print(toupper(text))
+
+# 3. Convert to lower case
+print(tolower(text))
+
+# 4. Extract characters
+print(substr(text, 1, 5))
+
+# 5. Replace string
+print(sub("R", "Python", text))
+
+# 6. Join strings
+a <- "R"
+b <- "Programming"
+print(paste(a, b))
