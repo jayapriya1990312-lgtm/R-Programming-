@@ -1,0 +1,16 @@
+# Different Data Structures in R
+
+# Vector
+v <- c(10, 20, 30, 40)
+print(v)
+
+# List
+l <- list("Jaya", 20, TRUE)
+print(l)
+
+# Data Frame
+df <- data.frame(
+  Name = c("Jaya", "Priya"),
+  Age = c(20, 21)
+)
+print(df)
