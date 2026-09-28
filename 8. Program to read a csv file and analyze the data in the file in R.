@@ -1,0 +1,22 @@
+# Read and Analyse CSV File
+
+data <- read.csv(textConnection(
+"Name,Marks
+Jaya,80
+Priya,70
+Anu,90
+Ravi,60
+"
+))
+
+print("CSV Data:")
+print(data)
+
+print("Average Marks:")
+print(mean(data$Marks))
+
+print("Maximum Marks:")
+print(max(data$Marks))
+
+print("Minimum Marks:")
+print(min(data$Marks))
