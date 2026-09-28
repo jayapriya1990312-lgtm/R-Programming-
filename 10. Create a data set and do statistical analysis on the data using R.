@@ -1,0 +1,21 @@
+# Statistical Analysis on a Data Set
+
+data <- c(10, 20, 30, 40, 50)
+
+print("Data:")
+print(data)
+
+print("Mean:")
+print(mean(data))
+
+print("Median:")
+print(median(data))
+
+print("Minimum:")
+print(min(data))
+
+print("Maximum:")
+print(max(data))
+
+print("Standard Deviation:")
+print(sd(data))
