@@ -1,0 +1,17 @@
+ # Pie Chart
+
+marks <- c(80, 70, 90, 60)
+names <- c("Jaya", "Priya", "Anu", "Ravi")
+
+pie(marks, labels = names,
+    main = "Student Marks")
+# Bar Chart
+
+marks <- c(80, 70, 90, 60)
+names <- c("Jaya", "Priya", "Anu", "Ravi")
+
+barplot(marks,
+        names.arg = names,
+        main = "Student Marks",
+        xlab = "Students",
+        ylab = "Marks")
